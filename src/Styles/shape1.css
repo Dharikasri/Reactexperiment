@@ -1,0 +1,17 @@
+.square{
+    width:100px;
+    height:100px;
+    background-color:red;
+    }
+.circle{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    border-radius:50%;
+    }
+    
+.Rectangle{
+    width:200px;
+    height:100px;
+    background-color:yellow
+}

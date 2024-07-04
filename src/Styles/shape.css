@@ -1,0 +1,59 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #32CD32;
+    display: inline-block;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .rectangle {
+    width: 100px;
+    height: 50px;
+    background-color: #FF00FF;
+    display: inline-block;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #8B4513;
+    display: inline-block;
+  }
+  
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #8B4513;
+    border-bottom: 50px solid transparent;
+    display: inline-block;
+  }
+  
+  .triangle-skewed {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #8B4513;
+    transform: skew(-20deg);
+    display: inline-block;
+  }
+  
+  .trapezoid {
+    border-bottom: 50px solid #FF00FF;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    display: inline-block;
+  }
+  
