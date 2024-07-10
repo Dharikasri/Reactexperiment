@@ -16,7 +16,7 @@ import Button1 from './components/Buttons';
 import Shapes2 from './components/Shapes2';
 import Login from './components/Webdashboard';
 import Layout from './components/Layout';
-
+import Card from './components/Card'; // Import the Card component
 
 const App = () => {
   return (
@@ -44,13 +44,12 @@ const App = () => {
               <Trapezoid />
             </React.Fragment>
           } />
-          <Route path="/shapes1" element={<Shapes/>} />
-          <Route path ="/button1" element={<Button1/>} />
-          <Route path ="/shapes2" element={<Shapes2/>} />
-          <Route path ="/login"element={<Login/>} />
-          <Route path ="/layout"element={<Layout/>} />
-
-
+          <Route path="/shapes1" element={<Shapes />} />
+          <Route path="/button1" element={<Button1 />} />
+          <Route path="/shapes2" element={<Shapes2 />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/layout" element={<Layout />} />
+          <Route path="/card" element={<Card />} /> 
         </Routes>
       </div>
     </Router>
